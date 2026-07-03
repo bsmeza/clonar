@@ -1,5 +1,4 @@
 #hola 
-
 asignaturas ={
     'DSY1103': ['Fullstack', 'L4', 7, 42, 12],
     'FPY1101': ['Programación', 'L6', 7, 21, 23],
@@ -7,7 +6,6 @@ asignaturas ={
     'DSY1101': ['Cloud Computing', 'L3', 4, 31, 6],
     'DSY1105': ['Aplicaciones Mobile', 'L9', 5, 15, 21],
     'MDY3131': ['Base de Datos', 'L3', 5, 11, 12]
-
  }
 
 def iniciarFuncion(nombre):
@@ -21,3 +19,7 @@ def totalAlumnos(codigo):
     Total = asignaturas [3]+ asignatura [4]
     print(Total)
     return Total
+
+def totalAsignaturas(asignaturas):
+    iniciarFuncion("Total asignaturas ")
+    
